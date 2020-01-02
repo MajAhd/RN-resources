@@ -1,0 +1,47 @@
+{
+  "name": "resources",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/masked-view": "^0.1.5",
+    "native-base": "^2.13.8",
+    "react": "16.9.0",
+    "react-native": "0.61.5",
+    "react-native-contacts": "^5.0.6",
+    "react-native-device-info": "^5.4.0",
+    "react-native-gesture-handler": "~1.5.0",
+    "react-native-get-location": "^1.4.2",
+    "react-native-image-picker": "^1.1.0",
+    "react-native-inappbrowser-reborn": "^3.3.3",
+    "react-native-reanimated": "^1.4.0",
+    "react-native-safe-area-context": "^0.6.2",
+    "react-native-safe-area-view": "^1.0.0",
+    "react-native-screens": "2.0.0-alpha.12",
+    "react-native-vector-icons": "^6.6.0",
+    "react-native-web": "~0.11.7",
+    "react-navigation": "^4.0.10",
+    "react-navigation-drawer": "^2.3.3",
+    "react-navigation-stack": "^2.0.1",
+    "react-navigation-tabs": "^2.6.2"
+  },
+  "devDependencies": {
+    "@babel/core": "7.7.7",
+    "@babel/runtime": "7.7.7",
+    "@react-native-community/eslint-config": "0.0.5",
+    "babel-jest": "24.9.0",
+    "eslint": "6.8.0",
+    "jest": "24.9.0",
+    "metro-react-native-babel-preset": "0.56.3",
+    "react-test-renderer": "16.9.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
