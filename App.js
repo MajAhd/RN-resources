@@ -6,12 +6,14 @@ import {createStackNavigator} from 'react-navigation-stack';
 import HomeScreen from './src/HomeScreen';
 import ContactScreen from './src/ContactScreen';
 import LocationScreen from './src/LocationScreen';
+import SmsScreen from './src/SmsScreen';
 
 const AppNavigator = createStackNavigator(
   {
     Home: HomeScreen,
     Contact: ContactScreen,
     Location: LocationScreen,
+    Sms: SmsScreen,
   },
   {
     initialRouteName: 'Home',

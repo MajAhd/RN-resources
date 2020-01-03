@@ -24,10 +24,10 @@ class HomeScreen extends Component {
                 </TouchableWithoutFeedback>
               </ListItem>
               <ListItem>
-                <Text>SMS</Text>
-              </ListItem>
-              <ListItem>
-                <Text>CALL</Text>
+                <TouchableWithoutFeedback
+                  onPress={() => this.props.navigation.navigate('Sms')}>
+                  <Text>SMS</Text>
+                </TouchableWithoutFeedback>
               </ListItem>
               <ListItem>
                 <Text>Cammera</Text>

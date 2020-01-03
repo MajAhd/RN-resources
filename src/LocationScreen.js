@@ -31,7 +31,7 @@ class LocationScreen extends Component {
     return (
       <Container>
         <HeaderBack title="Location" />
-        <H2>Location</H2>
+        <H2>My Location Info</H2>
         {this.state.location != null ? (
           <View>
             <Text>latitude : {this.state.location.latitude}</Text>
